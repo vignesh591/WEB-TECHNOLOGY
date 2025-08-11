@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Insert Employee Data</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ }
+ table {
+ margin-top: 20px;
+ }
+ td {
+ padding: 10px;
+ }
+ input[type="text"], input[type="email"] {
+ width: 250px;
+ padding: 5px;
+ }
+ button {
+ padding: 8px 20px;
+  font-weight: bold;
+ }
+ </style>
+</head>
+ <body>  
+ <center>
+ <h1>Insert Employee Data</h1>
+ <form method="post" action="process.php">
+ <table>
+ <tr>
+ <td>First Name:</td>
+ <td><input type="text" name="first_name" required /></td>
+ </tr>
+ <tr>
+ <td>Last Name:</td>
+ <td><input type="text" name="last_name" required /></td>
+ </tr>
+ <tr>
+ <td>City:</td>
+ <td><input type="text" name="city_name" required /></td>
+ </tr>
+ <tr>
+ <td>Email:</td>
+ <td><input type="email" name="email" required /></td>
+ </tr>
+ <tr>
+ <td colspan="2" align="center">
+ <button type="submit" name="btn-save">SAVE</button>
+ </td>
+ </tr>
+  </table>
+ </form>
+ </center>
+</body>
+</html>
